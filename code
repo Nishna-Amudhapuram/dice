@@ -1,0 +1,9 @@
+import random
+def dice_roll() :
+    diceroll = random.randint(1, 6)
+    return diceroll
+
+print(dice_roll())
+print(dice_roll())
+print(dice_roll())
+print(dice_roll())
